@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+body,
+html,
+.App,
+#root,
+.auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 50px;
+}
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+.auth-link,
+.auth-link a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+.auth-link a {
+  color: #167bff;
+}
+.custom-control-label {
+  font-weight: 400;
+}
+
+/* Navbar */
+.nav-link {
+  align-items: center;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #DFE0EB;
+  outline: 2px solid white;
+  outline-offset: -3px;
+  margin-left: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #363740;
+  color: #fff;
+  height: 100vh;
+  transition: all 0.5s;
+}
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 25px;
+  justify-content: space-between;
+  border-bottom: 1px solid #777;
+  margin-bottom: 20px;
+}
+.logo h1 {
+  font-size: 20px;
+  display: inline-block;
+}
+.logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+.menu-bar img {
+  width: 25px;
+  cursor: pointer;
+}
+.link {
+  display: flex;
+  color: #fff;
+  padding: 10px 25px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.link:hover {
+  background: #27282f;
+  color: #fff;
+  transition: all 0.5s;
+}
+.link.active {
+  background: #27282f;
+  color: #fff;
+}
+
+/* Main content */
+main {
+  width: 100%;
+}
+
+/* User table */
+.user-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.btn-view {
+  white-space: nowrap;
+  font-size: 10px;
+  background-color: #65A7DB;
+  color: white;
+  border-radius: 20px;
+  padding: 7px 10px;
+}
+.btn-view:hover {
+  background-color: #316185;
+  color: white;
+}
+
+/* User Detail */
+.user-img {
+  width: 100%;
+  border-radius: 8px;
+}
