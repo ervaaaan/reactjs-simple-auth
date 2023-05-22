@@ -4,7 +4,7 @@ export default function Register() {
   const submitRegisterForm = (event) => {
     event.preventDefault();
 
-    const registerAPI = "https://aone-backend.merlinbox.com/api/register";
+    const registerAPI = "http://localhost:8002/api/register";
     const formElement = document.querySelector("#registerForm");
     const formData = new FormData(formElement);
     const formDataJSON = Object.fromEntries(formData);

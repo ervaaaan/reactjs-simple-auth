@@ -15,7 +15,7 @@ export default function Login() {
   const submitLoginForm = (event) => {
     event.preventDefault();
 
-    const loginAPI = "https://aone-backend.merlinbox.com/api/login";
+    const loginAPI = "http://localhost:8002/api/login";
     const formElement = document.querySelector("#loginForm");
     const formData = new FormData(formElement);
     const formDataJSON = Object.fromEntries(formData);
